@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/bg.jpg);
+    background-position: center center;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+nav img {
+    color: red;
+
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: calc(100% - 41px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    gap: 23px;
+}
+
+.text> :nth-child(1) {
+    width: 50%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text> :nth-child(2) {
+    font-weight: 700;
+    font-size: 23px;
+
+}
+
+.text>:nth-child(3) {
+    font-weight: 600;
+    font-size: 19px;
+
+}
+
+.separation {
+    height: 5px;
+    background-color: rgb(78, 78, 78);
+}
+
+
+.btn {
+    background-color: rgba(23, 23, 23, 0.4);
+    color: white;
+    padding: 3px 9px 3px 9px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.btn-red {
+    background-color: red;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 9px 3px 9px;
+    border-radius: 3px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 3px 9px 3px 9px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+input{
+    background-color: rgba(23, 23, 23, 0.4);
+    padding: 6px 100px 6px 12px;
+    border: 1px solid transparent   ;
+    border-radius: 3px;
+
+}
+
+.footer {
+    background: #181818;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #b9b4b4;
+    font-size: 0.9rem;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
