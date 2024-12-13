@@ -9,6 +9,6 @@ function getrandomcolor() {
 
     return `rgba(${val1},${val2},${val3})`
 }
-Array.from(boxes).forEach(se =>{
+Array.from(boxes).forEach(e =>{
     e.style.backgroundColor = getrandomcolor();
 })
